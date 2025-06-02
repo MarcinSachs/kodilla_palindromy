@@ -1,7 +1,7 @@
 def is_palindrome(word):
-    if word == word[::-1]:
+    if word.lower() == word.lower()[::-1]:
         return True
     else:
         return False
 
-print(is_palindrome('kajak'))
+print(is_palindrome('Kajak'))
